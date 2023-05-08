@@ -1,0 +1,38 @@
+.hero {
+  display: grid;
+  grid-template-columns: 28.125rem 1fr;
+  max-width: 79.6875rem;
+  height: 50rem;
+  position: relative;
+}
+
+/* .hero .button-1 {
+  grid-column: 2;
+} */
+
+.hero__left-side {
+  background-color: var(--almost-black);
+}
+
+.hero__left-side h1 {
+  position: absolute;
+  left: 11.5rem;
+  top: calc(50% - 176px / 2 - 122.5px);
+  display: inline-block;
+}
+
+.hero__right-side {
+  background: url("../assets/desktop/image-hero.jpg") no-repeat;
+  position: relative;
+}
+
+.hero__right-side-content {
+  position: absolute;
+  right: 0;
+  top: 11.875rem;
+}
+
+.hero__right-side-content p {
+  max-width: 24ch;
+  padding-bottom: 64px;
+}

@@ -1,0 +1,41 @@
+.container {
+  box-sizing: border-box;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.button-1 {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 1.5rem; /* identical to box height */
+  letter-spacing: 0.2272725rem;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--almost-black);
+  width: max-content;
+  height: 4.5rem;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.button-1:hover {
+  background-color: var(--gold);
+}
+
+.button-1:hover img {
+  background-color: var(--almost-black);
+}
+
+.button-1 img {
+  padding: 1.5rem;
+  background-color: var(--gold);
+  width: 0.5rem;
+  height: 1.5rem;
+}
+
+.button-1 p {
+  padding: 1.5rem 2.1875rem 1.5rem 2rem;
+}

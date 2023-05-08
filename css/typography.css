@@ -1,0 +1,51 @@
+.heading-xl {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 5.52rem; /* or 92% */
+  text-transform: uppercase;
+}
+
+.heading-l {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.375rem;
+  line-height: 4.375rem; /* or 100% */
+  text-transform: uppercase;
+}
+
+.heading-m {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.75rem;
+  line-height: 3.75rem; /* or 100% */
+  text-transform: uppercase;
+}
+
+.heading-s {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 2.25rem; /* identical to box height, or 100% */
+  text-transform: uppercase;
+}
+
+.body-m {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.375rem;
+  line-height: 2rem; /* or 145% */
+}
+
+.body-s {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.75rem; /* or 156% */
+}
