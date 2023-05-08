@@ -1,0 +1,22 @@
+:root {
+  --white: #ffffff;
+  --dark-gray: #444444;
+  --almost-black: #151515;
+  --gold: #d5966c;
+}
+
+.white-color {
+  color: var(--white);
+}
+
+.dark-gray-color {
+  color: var(--dark-gray);
+}
+
+.almost-black-color {
+  color: var(--almost-black);
+}
+
+.gold-color {
+  color: var(--gold);
+}
