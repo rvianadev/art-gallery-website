@@ -4,6 +4,7 @@
   max-width: 79.6875rem;
   height: 50rem;
   position: relative;
+  padding-bottom: 11.25rem;
 }
 
 /* .hero .button-1 {
@@ -19,6 +20,7 @@
   left: 11.5rem;
   top: calc(50% - 176px / 2 - 122.5px);
   display: inline-block;
+  z-index: 1;
 }
 
 .hero__right-side {
