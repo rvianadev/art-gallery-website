@@ -3,16 +3,26 @@
   padding: 5rem 0;
 }
 
-.footer-content {
-  max-width: 69.375rem;
-  margin: 0 auto;
+.footer-location {
+  background-color: var(--gold);
+  color: var(--almost-black);
+  padding: 5rem 0;
+}
 
+.footer-content,
+.footer-location-content {
+  max-width: 69.375rem;
   grid-template-columns: 1fr 2fr auto;
   column-gap: 9rem;
 }
 
-.footer-content p {
+.footer-content p,
+.footer-location-content p {
   max-width: 36ch;
+}
+
+.footer-location-content p {
+  color: inherit;
 }
 
 .socials {
@@ -30,4 +40,8 @@
 
 .socials a:hover {
   color: var(--gold);
+}
+
+.footer-location-content .socials a:hover {
+  color: var(--white);
 }

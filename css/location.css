@@ -1,0 +1,30 @@
+.map-container {
+  background-image: url("../assets/desktop/image-map.png");
+  height: 600px;
+  position: relative;
+}
+
+.map-container header {
+  max-width: 69.375rem;
+}
+
+.middle {
+  background-color: var(--almost-black);
+  color: var(--white);
+}
+
+.middle-container {
+  grid-template-columns: 1fr 1fr;
+  max-width: 69.375rem;
+  padding-top: 6.5rem;
+  padding-bottom: 8rem;
+}
+
+.middle-content h2 {
+  color: var(--gold);
+  padding-bottom: 1.5rem;
+}
+
+.middle-content p {
+  padding-bottom: 2rem;
+}

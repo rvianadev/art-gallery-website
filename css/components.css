@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 
-.button-1 {
+.button {
   font-family: "Big Shoulders Display";
   font-style: normal;
   font-weight: 800;
@@ -18,24 +18,35 @@
   height: 4.5rem;
 
   display: grid;
+}
+
+.button-1 {
   grid-template-columns: 1fr auto;
 }
 
-.button-1:hover {
+.button-2 {
+  grid-template-columns: auto 1fr;
+}
+
+.button-1:hover,
+.button-2:hover {
   background-color: var(--gold);
 }
 
-.button-1:hover img {
+.button-1:hover img,
+.button-2:hover img {
   background-color: var(--almost-black);
 }
 
-.button-1 img {
+.button-1 img,
+.button-2 img {
   padding: 1.5rem;
   background-color: var(--gold);
   width: 0.5rem;
   height: 1.5rem;
 }
 
-.button-1 p {
+.button-1 p,
+.button-2 p {
   padding: 1.5rem 2.1875rem 1.5rem 2rem;
 }
