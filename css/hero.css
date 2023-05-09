@@ -11,7 +11,7 @@
   background-color: var(--almost-black);
 }
 
-.hero__left-side h1 {
+.hero h1 {
   position: absolute;
   left: 11.5rem;
   top: calc(50% - 176px / 2 - 122.5px);
@@ -37,4 +37,18 @@
 .hero__right-side-content p {
   max-width: 24ch;
   padding-bottom: 64px;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    color: var(--almost-black);
+  }
+
+  .hero__left-side {
+    display: none;
+  }
 }
