@@ -1,7 +1,4 @@
 .hero {
-  /* display: grid;
-  grid-template-columns: 28.125rem 1fr; */
-  /* max-width: 79.6875rem; */
   max-width: 61.875rem;
   height: 50rem;
   position: relative;
@@ -21,11 +18,7 @@
 }
 
 .hero-snippet h1 {
-  /* position: absolute;
-  left: 11.5rem;
-  top: calc(50% - 176px / 2 - 122.5px); */
   display: inline-block;
-  z-index: 1;
   background: linear-gradient(to right, white 64%, black 36%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -39,18 +32,4 @@
 
 .hero-snippet__content p {
   max-width: 24ch;
-}
-
-@media screen and (max-width: 1200px) {
-  .hero {
-    grid-template-columns: 1fr;
-  }
-
-  .hero h1 {
-    color: var(--almost-black);
-  }
-
-  .hero__left-side {
-    display: none;
-  }
 }
