@@ -1,7 +1,6 @@
 .hero {
   max-width: 61.875rem;
   height: 50rem;
-  margin-bottom: 11.25rem;
 
   background: url("../assets/desktop/image-hero.jpg") no-repeat right,
     var(--almost-black);
@@ -14,6 +13,7 @@
   position: absolute;
   top: 11.875rem;
   left: 11.5rem;
+  max-width: max-content;
 }
 
 .hero-snippet h1 {
@@ -35,20 +35,32 @@
 
 @media screen and (max-width: 768px) {
   .hero {
-    background: url("../assets/desktop/image-hero.jpg") no-repeat;
+    background: url("../assets/tablet/image-hero.jpg") no-repeat;
   }
 
   .hero-snippet {
     flex-direction: column;
     justify-content: space-between;
-    gap: 0rem;
+    gap: 3rem;
     position: absolute;
     top: 9.0625rem;
-    right: 2.5rem;
+    left: unset;
+    right: 4.625rem;
+    margin: unset;
   }
 
   .hero-snippet h1 {
     color: var(--almost-black);
     font-size: 4.375rem;
+    line-height: 4.0625rem;
+  }
+
+  .hero-snippet p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .hero-snippet__content {
+    gap: 3rem;
   }
 }
