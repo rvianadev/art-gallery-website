@@ -28,3 +28,50 @@
 .address {
   padding-bottom: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .map-container {
+    background-image: url("../assets/tablet/image-map.png");
+  }
+
+  .map-container a {
+    margin-left: 2.4375rem;
+  }
+
+  .middle-container {
+    grid-template-columns: auto 1fr;
+    gap: 7rem;
+  }
+
+  .middle-container,
+  .footer-location-content {
+    max-width: 43rem;
+  }
+
+  .middle-container h1 {
+    font-size: 3.4375rem;
+    line-height: 3.125rem;
+  }
+
+  .middle-content h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .middle-content p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .footer-location-content {
+    grid-template-columns: auto 1fr auto !important;
+    column-gap: unset !important;
+  }
+
+  .footer-location-content p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    padding-left: 4.0625rem;
+    max-width: 26ch !important;
+  }
+}
