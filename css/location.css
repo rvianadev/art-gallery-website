@@ -20,6 +20,10 @@
   padding-bottom: 8rem;
 }
 
+.middle-container h1 {
+  max-width: 7ch;
+}
+
 .middle-content h2 {
   color: var(--gold);
   padding-bottom: 1.5rem;
@@ -40,7 +44,9 @@
 
   .middle-container {
     grid-template-columns: auto 1fr;
-    gap: 7rem;
+    column-gap: 4.25rem;
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
   }
 
   .middle-container,
@@ -61,17 +67,46 @@
   .middle-content p {
     font-size: 1.125rem;
     line-height: 1.75rem;
+    max-width: 34ch;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .map-container {
+    background-image: url("../assets/mobile/image-map.png");
   }
 
-  .footer-location-content {
-    grid-template-columns: auto 1fr auto !important;
-    column-gap: unset !important;
+  .map-container a {
+    margin-left: 0;
   }
 
-  .footer-location-content p {
-    font-size: 1rem;
-    line-height: 1.625rem;
-    padding-left: 4.0625rem;
-    max-width: 26ch !important;
+  .middle-container {
+    grid-template-columns: 1fr;
+    max-width: 21.4375rem;
+    row-gap: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .middle-container h1 {
+    max-width: 11ch;
+    font-size: 3.125rem;
+    line-height: 2.8125rem;
+  }
+
+  .middle-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.25rem;
+  }
+
+  .middle-content h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-bottom: unset;
+  }
+
+  .address {
+    padding-bottom: unset;
   }
 }

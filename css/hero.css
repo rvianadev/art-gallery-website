@@ -64,3 +64,23 @@
     gap: 3rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .hero {
+    background: url("../assets/mobile/image-hero.jpg") no-repeat;
+  }
+
+  .hero-snippet {
+    top: 17rem;
+    gap: 2rem;
+  }
+
+  .hero-snippet__content {
+    gap: 2rem;
+  }
+
+  .hero-snippet h1 {
+    font-size: 3.75rem;
+    line-height: 3.4375rem;
+  }
+}
