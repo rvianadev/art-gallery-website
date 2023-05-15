@@ -2,3 +2,9 @@
   position: relative;
   margin-bottom: 11.25rem;
 }
+
+@media screen and (max-width: 768px) {
+  .main {
+    margin-bottom: 1.25rem;
+  }
+}

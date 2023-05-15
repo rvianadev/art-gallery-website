@@ -2,10 +2,10 @@
   max-width: 69.375rem;
 
   display: grid;
-  grid-template-columns: 445px 160px 445px;
-  grid-template-rows: 400px 313px 377px;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-template-columns: 27.8125rem 10rem 27.8125rem;
+  grid-template-rows: 25rem 19.5625rem 23.5625rem;
+  grid-column-gap: 1.875rem;
+  grid-row-gap: 1.875rem;
 
   grid-template-areas:
     "middle-content-1 img1 img1"
@@ -17,8 +17,7 @@
 
 .middle-content-1 {
   grid-area: middle-content-1;
-  padding-top: 3.75rem;
-  padding-bottom: 3.75rem;
+  align-self: center;
 }
 
 .middle-content-1 p {
@@ -46,4 +45,39 @@
 .middle-content-1 h2,
 .middle-content-2 h2 {
   padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .middle {
+    max-width: 43rem;
+    grid-template-columns: 280px 107px 280px;
+    grid-template-rows: 400px 313px 396px;
+    grid-column-gap: 0.6875rem;
+    grid-row-gap: 0.6875rem;
+    padding-bottom: 7.5rem;
+  }
+
+  .middle-content-1 {
+    padding-right: 57px;
+  }
+
+  .middle-content-2 {
+    padding: 5.3125rem 1.75rem 5.3125rem 1.8125rem;
+  }
+
+  .middle-content-1 h2 {
+    max-width: 8ch;
+  }
+
+  .middle-content-1 h2,
+  .middle-content-2 h2 {
+    font-size: 3.125rem;
+    line-height: 0.9;
+  }
+
+  .middle-content-1 p,
+  .middle-content-2 p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
