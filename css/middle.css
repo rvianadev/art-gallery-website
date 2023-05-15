@@ -42,6 +42,10 @@
   padding: 4.0625rem 2.9375rem 4rem 3rem;
 }
 
+.middle-content-1 h2 {
+  max-width: 12ch;
+}
+
 .middle-content-1 h2,
 .middle-content-2 h2 {
   padding-bottom: 2rem;
